@@ -51,15 +51,18 @@ int main(){
 	cout<<"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"<<endl;
 	//muestra de resultados
 	cout<<"hola "<<setw(5)<<nombre<<setw(15)<<"  estas son tus cuentas:"<<endl;
-	cout<<"el ingreso total es de "<<setw(10)<<right<<ingresototal<<"C$"<<endl;
+	cout<< " tu ingreso basico es de:" << setw(8) <<salariobasico << endl;
+	cout<< " tu ingreso por antiguedad es de:" << setw(8) <<ingresoantiguedad << endl;
+	cout<<" el ingreso total es de "<<setw(10)<<right<<ingresototal<<"C$"<<endl;
 	
 	
 	cout<<"_________________________DEDUCCIONES__________________-"<<endl;
 	cout<<"tus deducciones totales son: "<<setw(8)<<right<<deduccionestotales<<"C$"<<endl;
 	cout<<setw(12)<<"correspondientes a:"<<endl;
-	cout<<"deduccion del sindicato:"<<setw(8)<<right<<montosindicato<<"C$"<<endl;
-	cout<<"deduccion del inss  :"<<setw(14)<<right<<montoinss<<"C$"<<endl;
-	cout<<"deduccion de la tasa ir:"<<setw(8)<<right<<tasair<<"C$"<<endl;
+	cout<<"deduccion del sindicato al 1%:"<<setw(8)<<right<<montosindicato<<"C$"<<endl;
+	cout<<"deduccion del inss al 7% :"<<setw(14)<<right<<montoinss<<"C$"<<endl;
+	cout<<"deduccion de la tasa ir al 15.6%:"<<setw(8)<<right<<tasair<<"C$"<<endl;
+	cout<<"deduccion de de ir patronal al 22.5% "<<setw(8)<<insspatronal<<"C$"<<endl;
 	
 		cout<<"_________________________ingreso neto__________________-"<<endl;
 	cout<<"tu ingreso neto es igual a: "<<setw(8)<<right<<ingresoneto<<"C$"<<endl;
