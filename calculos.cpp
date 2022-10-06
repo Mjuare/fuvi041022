@@ -12,7 +12,6 @@ instrucciones:ejemplo de programacion estructurada
 using namespace std;
 
 
-
 int main(){
 	//costantes
 	const double TASA_ANTIGUEDAD = 15;
@@ -59,10 +58,10 @@ int main(){
 	cout<<"_________________________DEDUCCIONES__________________-"<<endl;
 	cout<<"tus deducciones totales son: "<<setw(8)<<right<<deduccionestotales<<"C$"<<endl;
 	cout<<setw(12)<<"correspondientes a:"<<endl;
-	cout<<"deduccion del sindicato al 1%:"<<setw(8)<<right<<montosindicato<<"C$"<<endl;
-	cout<<"deduccion del inss al 7% :"<<setw(14)<<right<<montoinss<<"C$"<<endl;
-	cout<<"deduccion de la tasa ir al 15.6%:"<<setw(8)<<right<<tasair<<"C$"<<endl;
-	cout<<"deduccion de de ir patronal al 22.5% "<<setw(8)<<insspatronal<<"C$"<<endl;
+	cout<<" deduccion del sindicato al 1%:"<<setw(8)<<right<<montosindicato<<"C$"<<endl;
+	cout<<" deduccion del inss al 7% :"<<setw(14)<<right<<montoinss<<"C$"<<endl;
+	cout<<" deduccion de la tasa ir al 15.6%:"<<setw(8)<<right<<tasair<<"C$"<<endl;
+	cout<<" deduccion de de ir patronal al 22.5% "<<setw(8)<<insspatronal<<"C$"<<endl;
 	
 		cout<<"_________________________ingreso neto__________________-"<<endl;
 	cout<<"tu ingreso neto es igual a: "<<setw(8)<<right<<ingresoneto<<"C$"<<endl;

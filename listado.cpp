@@ -17,7 +17,7 @@ int main(){
 	
 	cout<< setw(10) <<"asignatura"<<setw(20)<<"estudiantes"<<endl
 					<<"programacion"<<setw(10)<<right<<"12"<<endl
-					<<left<<"redes"<<setw(15)<<right<<"9"<<endl;
+					<<left<<"redes"<<setw(20)<<right<<"9"<<endl;
 	
 		
 	return 0;
