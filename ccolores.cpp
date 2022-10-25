@@ -1,7 +1,7 @@
-/*
-nombre del archivo: banda de colores
-autor:maycol juarez
-lugar: itv
+/*                                                                                                                     
+nombre del archivo: banda de colores 
+autor:maycol juarez 
+lugar: itv 
 instrucciones: banda de colores
 */
 
@@ -20,15 +20,6 @@ bool color1, color2, color3, color4, color5, color6;
 	
 int main(){
 	
-
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	cout<<"escribe el numero de las bandas de la resistencia"<<endl;
@@ -42,11 +33,11 @@ int main(){
 	
 	cout<<"escribir el "<<posicion<<" color de la banda"<<endl,	cin>>color1,
 	cont=cont+1,
-	posicion=posicion+1:
+	posicion=posicion+1;
 	}
 	while(cont<=num);
 
-/*	cout<<" introducir el primer color"<<endl;
++/*	cout<<" introducir el primer color"<<endl;
 	cin>>color1;
 	
 	cout<<"introducir el segundo color"<<endl;
