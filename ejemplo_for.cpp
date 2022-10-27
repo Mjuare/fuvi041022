@@ -17,7 +17,7 @@ cin>>tabla;
 
 for(int i=1; i<11;i++){
 	if(i % 3==0){
-		cout<<tabla<<"X"<< i <<" = "tabla*i<<endl;
+		cout<< tabla <<"X"<< i <<" = "tabla*i<<endl;
 	}
 }
 	

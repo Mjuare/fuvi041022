@@ -24,14 +24,14 @@ int main(){
 	
 	cin>> num;
 
-	while (cont==3){
+
 		cont=0;
 	while (num !=  aleatorio){
 		cout<< "adivine el numero entre 0 y 10"<<endl;
 		cin>>num;
 		
 	}
-	cont= cont + 1;	
+	
 }
 	cout<< " felicidades, acertaste"<<endl;
 
